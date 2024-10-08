@@ -5,9 +5,9 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 const waves = [
-    { offset: Math.random() * 100, frequency: 0.005, amplitude: 80, speed: 0.09 },  // Wave 2
-    { offset: Math.random() * 100, frequency: 0.008, amplitude: 60, speed: 0.11 } ,  // Wave 4
-    { offset: Math.random() * 100, frequency: 0.007, amplitude: 40, speed: 0.1 },  // Wave 2
+    { offset: Math.random() * 100, frequency: 0.005, amplitude: 80, speed: 0.09 },  // Wave 1
+    { offset: Math.random() * 100, frequency: 0.008, amplitude: 60, speed: 0.11 } ,  // Wave 2
+    { offset: Math.random() * 100, frequency: 0.007, amplitude: 40, speed: 0.1 },  // Wave 3
     { offset: Math.random() * 100, frequency: 0.006, amplitude: 50, speed: 0.08 }   // Wave 4
 ];
 
