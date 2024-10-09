@@ -14,7 +14,7 @@ body {
 
 main {
     padding: 0 50px;
-    border: 2px solid green
+    /*border: 2px solid green*/
 }
 
 .main-title span {
@@ -31,7 +31,7 @@ main {
 }
 
 header .container {
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     padding: 30px 50px;
     display: flex;
     align-items: center;
@@ -61,10 +61,10 @@ main {
     justify-content: space-between;
     max-width: 1200px; 
     margin-bottom: 10%;
-    border: 2px solid #C49EF7
+    /*border: 2px solid #C49EF7*/
 }
 .card-container{
-    border: 2px solid #C49EF7
+    /*border: 2px solid #C49EF7*/
 }
 .card {
     text-align: center;
@@ -114,7 +114,7 @@ main {
     text-align: center;
     align-items: center;
     justify-content: center;
-    border: 2px solid pink
+    /*border: 2px solid pink*/
 }
 .footer .container{
     width: 100%;
@@ -146,7 +146,7 @@ main {
 .hero-img {
     z-index: 500;
     height: 80vh;
-    border: 2px solid blue
+    /*border: 2px solid blue*/
 }
 .hero-img {
     position: absolute;
