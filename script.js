@@ -1,8 +1,9 @@
 const canvas = document.getElementById('waveCanvas');
 const ctx = canvas.getContext('2d');
 
+// Set the initial width and height of the canvas
 canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+canvas.height = 190; // Fixed height for the wave canvas
 
 const waves = [
     { offset: Math.random() * 100, frequency: 0.005, amplitude: 80, speed: 0.09 },  // Wave 1
@@ -23,7 +24,7 @@ function drawWaves() {
         // Create wave shape for each wave
         for (let x = 0; x < canvas.width; x++) {
             const y = canvas.height / 2 + Math.sin(x * waves[i].frequency + waves[i].offset) * waves[i].amplitude;
-            ctx.lineTo(x, y + (i * 20)); // Offset each wave vertically
+            ctx.lineTo(x, y + (i * 10)); // Offset each wave vertically
         }
 
         ctx.stroke();
@@ -38,6 +39,6 @@ drawWaves();
 
 // Adjust canvas size on window resize
 window.addEventListener('resize', () => {
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+    canvas.width = window.innerWidth; // Keep width responsive
+    canvas.height = 150; // Maintain a fixed height for the waves
 });

@@ -57,6 +57,7 @@ main {
 
 .cards {
     margin: 50px 0;
+    margin-top: 15%;
     display: flex;
     justify-content: space-between;
     max-width: 1200px; 
@@ -122,6 +123,7 @@ main {
 .footer{
     margin-left: -50%;
     margin-right: -50%;
+    background: linear-gradient(to right, black, #11071F);
 }
 
 .footer-text {
@@ -151,7 +153,7 @@ main {
 .hero-img {
     position: absolute;
     right: 0; 
-    top: 50%; 
+    top: 60%; 
     transform: translateY(-50%); 
     max-width: 100%;
     height: auto;
@@ -192,4 +194,7 @@ main {
         transform: translate(-50%, -50%) scale(1) rotate(0deg);
         opacity: 0.8;
     }
+}
+.footer{
+    width: 104dvw; margin: auto; padding: 0; margin-left: -10%;
 }
