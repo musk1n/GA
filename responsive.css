@@ -263,3 +263,90 @@
         font-size: 1.5rem; /* Force change */
     }       
 }
+
+@media (max-width: 360px) {
+    /* Decrease size of logos */
+    #cac-logo {
+        width: 200px; /* Adjust size as needed */
+        height: auto; /* Maintain aspect ratio */
+        padding-right: 30px;
+    }
+    
+    #ga-logo {
+        width: 80px; /* Adjust size as needed */
+        height: auto; /* Maintain aspect ratio */
+        padding-left: 10px;
+    }
+
+    /* Position hero image to the extreme right */
+    .hero {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-end; /* Align items to the right */
+        position: relative; /* Allow absolute positioning within */
+    }
+
+    .hero-img {
+        width: 100%; /* Adjust width for mobile */
+        height: auto; /* Maintain aspect ratio */
+        margin-top: 50px; /* Space between text and image */
+        position: absolute; /* Positioning the image absolutely */
+        right: -10%; /* Align to the right */
+    }
+    .blurbg{
+        width: 200px;
+        height: 200px;
+        margin-top: 20px; /* Space between text and image */
+        position: absolute; /* Positioning the image absolutely */
+        right: 0;
+    }
+
+    .main-title {
+        line-height: 4.5rem;
+        font-size: 4rem;
+    }
+
+    /* Adjust the wave size */
+    .waves {
+        width: 100%; /* Full width on mobile */
+        overflow: hidden; /* Ensure overflow is hidden */
+    }
+
+    /* Display cards in column */
+    .cards {
+        display: flex;
+        flex-direction: column; /* Stack cards vertically */
+        gap: 60px; /* Space between cards */
+        width: 100%; /* Ensure it takes full width */
+    }
+
+    .card {
+        width: 100%; /* Full width for each card */
+        padding: 10px; /* Optional padding for aesthetics */
+        height: 450px
+    }
+
+    /* Adjust footer for better visibility */
+    .footer {
+        padding: 0px; /* Add padding for spacing */
+        width: 100vw; /* Ensure footer takes full width */
+        text-align: center; /* Center text in footer */
+        margin-left: -14vw;
+        margin-top: 50px;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center; /* Center the icons */
+        gap: 5px; /* Space between icons */
+    }
+    .waves {
+        top: -40px;
+        width: 100vw; /* Full width on mobile */
+        overflow: hidden; /* Hide overflow to avoid large wave issues */
+        position: relative; /* Ensure positioning context for waves */
+    }
+    .footer .footer-text {
+        font-size: 1.5rem; /* Force change */
+    }       
+}
